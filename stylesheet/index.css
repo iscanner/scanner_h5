@@ -1,0 +1,11 @@
+#content {
+  text-align: center;
+  padding-top: 30px;
+}
+#start {
+  font: 50px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; 
+}
+#start a {
+  text-decoration: none;
+  color: #333;
+}
