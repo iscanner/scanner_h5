@@ -6,7 +6,8 @@
   <title>Basic QR-code reader example</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="stylesheet/reset.css">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
   <link rel="stylesheet" href="stylesheet/styles.css">
   <script src="javascript/jquery.min.js"></script>
   <script src="javascript/photobooth.js"></script>
@@ -35,11 +36,15 @@
     <div id="example"></div>
   </div>
   <div class="button">
-    <a id="button">Scan QR code</a>
+    <a id="button" class="btn btn-large btn-success">Scan QR code</a>
   </div>
-  <div class="boxWrapper auto">
+  <div class="auto">
     <div id="hiddenImg"></div>
-    <div id="qrContent"><p>Result will be here.</p></div>
+    <div id="qrContent">
+      That's all you have, ingredients:
+      <p id="tips"></p>
+      <p id="container"></p>
+    </div>
   </div>
 </div>
 </body>

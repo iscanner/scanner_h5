@@ -9,3 +9,7 @@
   text-decoration: none;
   color: #333;
 }
+
+#start a:hover {
+  font-size: 60px;
+}

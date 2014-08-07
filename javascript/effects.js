@@ -25,5 +25,11 @@ function qrCodeDecoder(dataUrl) {
 
 // show info from qr code
 function showInfo(data) {
-	$("#qrContent p").text(data);
+  if(!!~data.indexOf('error')) {
+    $('#tips').text(data);
+    return;
+  }
+  $('#tips').text('sucess!');
+
+	$("#container").append('<button class="btn btn-mini btn-warning" type="button">'+ data +'</button>');
 }
