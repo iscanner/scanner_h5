@@ -1,4 +1,45 @@
 #content {
   padding: 30px;
   text-align:center;
+  margin: 0 auto;
+  width: 800px;
+}
+#content a{
+  color: #333;
+}
+#content .item{
+  background:#ebebeb;
+  width:350px;
+  float:left;
+  border-radius:10px;
+  text-align:center;
+  padding: 10px;
+}
+#content .item img{
+  margin: 10px 0;
+}
+#content .item:hover{
+  background:rgb(243, 243, 202);
+}
+#content .item2{
+  float:right;
+}
+#content  .tags {
+  margin-top:20px;
+}
+#content  .tags span{
+  padding: 2px 5px;
+  background:#666;
+  border-radius: 2px;
+  color: #fff;
+}
+#content  .tags .extra{
+  background:rgb(155, 1, 1);
+  color:#fff;
+}
+#content  .time {
+  font-size:30px;
+  line-height:30px;
+  font-weight: border;
+  padding: 10px 30px;
 }

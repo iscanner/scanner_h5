@@ -1,4 +1,55 @@
 #content {
-  width: 800px;
+  padding: 30px;
+  text-align:center;
   margin: 0 auto;
+  width: 820px;
+  height: 270px;
+  box-shadow: 0 1px 2px rgba(51,51,51,.6);
+  border-radius: 20px;
+  margin-top:30px;
+}
+#content a{
+  color: #333;
+}
+#content h1{
+  font-size: 44px;
+  line-height: 44px;
+}
+#content .pic{
+  width: 400px;
+  float:left;
+}
+#content .info{
+  float: right;
+  text-align:left;
+  width:400px;
+  padding:0 2px;
+}
+#content  .tags {
+  margin-top:20px;
+  font-weight:border;
+}
+#content .time{
+  background:#ebebeb;
+  padding:10px 4px;
+  margin-top:13px;
+  position: relative;
+  border-radius: 10px;
+}
+#content .btn{
+  float:right;
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+#content  .tags span{
+  padding: 2px 5px;
+  background:#666;
+  border-radius: 2px;
+  color: #fff;
+  margin-top:10px;
+}
+#content  .tags .extra{
+  background:rgb(155, 1, 1);
+  color:#fff;
 }
