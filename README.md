@@ -1,4 +1,9 @@
-project
-=======
+scanner-h5
+==========
 
-project
+scanner h5
+
+```shell
+$ npm i
+$ npm run server
+```
