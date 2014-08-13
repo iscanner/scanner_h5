@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 
 	// for webcam support
