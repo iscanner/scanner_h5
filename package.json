@@ -1,9 +1,9 @@
 {
   "name": "scanner-h5",
   "version": "1.0.0",
-  "description": "ui automation test sample",
+  "description": "scanner h5",
   "scripts": {
-    "server": "./node_modules/.bin/startserver"
+    "server": "startserver"
   },
   "devDependencies": {
     "startserver": "*"

@@ -1,9 +1,6 @@
-scanner-h5
-==========
+# scanner-h5
 
-scanner h5
-
-```shell
+``` bash
 $ npm i
 $ npm run server
 ```
